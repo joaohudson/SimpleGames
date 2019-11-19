@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=TabuleiroGUI
+comment0.text=\r\n\ Interface\ Grafica\ do\ Tabuleiro\ do\ jogo.\r\n\ \r\n\ @author\ Alan\ Moraes\ &lt;alan@ci.ufpb.br&gt;\r\n\ @author\ Leonardo\ Villeth\ &lt;lvilleth@cc.ci.ufpb.br&gt;\r\n\ @autor\ Jo\u00E3o\ Hudson.\r\n
+comment1.params=
+comment1.target=TabuleiroGUI()
+comment1.text=\r\n\ Creates\ new\ form\ Tabuleiro\r\n
+comment2.params=janela
+comment2.target=TabuleiroGUI(JanelaPrincipal)
+comment3.params=
+comment3.target=void\ criarCasas()
+comment3.text=\r\n\ Preenche\ o\ tabuleiro\ com\ 64\ casas\r\n
+comment4.params=xPosition\ yPosition
+comment4.target=CasaGUI\ getCasa(int,\ int)
+comment4.text=\r\n\ Obt\u00E9m\ uma\ casa\ gr\u00E1fica\ do\ tabuleiro\ gr\u00E1fico.\r\n\ \r\n\ @param\ xPosition\ A\ posi\u00E7\u00E3o\ x\ da\ casa\ gr\u00E1fica.\r\n\ @param\ yPosition\ A\ posi\u00E7\u00E3o\ y\ da\ casa\ gr\u00E1fica.\r\n\ @return\ A\ casa\ gr\u00E1fica\ especificada.\r\n
+comment5.params=
+comment5.target=void\ removerMarcacoes()
+comment5.text=\r\n\ Remove\ todas\ as\ marca\u00E7\u00F5es\ do\ tabuleiro.\r\n
+comment6.params=i\ j
+comment6.target=java.awt.Color\ calcularCor(int,\ int)
+comment7.params=jogo
+comment7.target=void\ atualizar(Jogo)
+comment8.params=
+comment8.target=JanelaPrincipal\ getJanela()
+comment9.params=
+comment9.target=void\ initComponents()
+comment9.text=\r\n\ This\ method\ is\ called\ from\ within\ the\ constructor\ to\ initialize\ the\ form.\r\n\ WARNING\:\ Do\ NOT\ modify\ this\ code.\ The\ content\ of\ this\ method\ is\ always\r\n\ regenerated\ by\ the\ Form\ Editor.\r\n
+numComments=10

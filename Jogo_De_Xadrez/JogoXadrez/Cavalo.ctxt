@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Cavalo
+comment0.text=\r\n\ Descri\u00E7\u00E3o\:\ O\ cavalo\ do\ jogo\ de\ Xadrez,\ pode\ se\ mover\r\n\ apenas\ em\ forma\ de\ "L",\ pode\ pular\ outras\ pe\u00E7as,\ e\ comer\r\n\ apenas\ no\ fim\ do\ movimento.\r\n\ \r\n\ @author\ (Jo\u00E3o\ Hudson)\ \r\n\ @version\ (08/10/2018)\r\n
+comment1.params=casa\ jogador\ tipo
+comment1.target=Cavalo(Casa,\ Jogador,\ int)
+comment1.text=\r\n\ Cria\ um\ cavalo,\ posiciona\ em\ sua\ casa,\ e\ envia\ para\ seu\ jogador.\r\n\ \r\n\ @param\ casa\ A\ casa\ do\ cavalo.\r\n\ @param\ jogador\ O\ jogador\ do\ cavalo.\r\n\ @param\ tipo\ O\ tipo\ do\ cavalo(branco\ ou\ preto).\r\n
+comment2.params=casa
+comment2.target=void\ adicionaMovimento(Casa)
+comment2.text=\r\n\ Verifica\ se\ o\ movimento\ at\u00E9\ a\ casa\ especificada\ \u00E9\ v\u00E1lido.\r\n\ Caso\ seja,\ registra\ esse\ movimento\ de\ acordo\ com\ seu\ tipo,\r\n\ e\ guarda\ na\ lista\ de\ movimentos\ poss\u00EDveis.\r\n\ \r\n\ @param\ casa\ O\ destino\ deste\ movimento.\r\n
+comment3.params=
+comment3.target=void\ analisaMovimentosNorte()
+comment3.text=\r\n\ Analisa\ os\ movimentos\ poss\u00EDveis\ no\ sentido\ inicial\ norte,\r\n\ e\ ent\u00E3o\ adiciona\ estes\ movimentos\ na\ lista.\r\n
+comment4.params=
+comment4.target=void\ analisaMovimentosSul()
+comment4.text=\r\n\ Analisa\ os\ movimentos\ poss\u00EDveis\ no\ sentido\ inicial\ sul,\r\n\ e\ ent\u00E3o\ adiciona\ estes\ movimentos\ na\ lista.\r\n
+comment5.params=
+comment5.target=void\ analisaMovimentosLeste()
+comment5.text=\r\n\ Analisa\ os\ movimentos\ poss\u00EDveis\ no\ sentido\ inicial\ leste,\r\n\ e\ ent\u00E3o\ adiciona\ estes\ movimentos\ na\ lista.\r\n
+comment6.params=
+comment6.target=void\ analisaMovimentosOeste()
+comment6.text=\r\n\ Analisa\ os\ movimentos\ poss\u00EDveis\ no\ sentido\ inicial\ oeste,\r\n\ e\ ent\u00E3o\ adiciona\ estes\ movimentos\ na\ lista.\r\n
+comment7.params=
+comment7.target=void\ atualizaMovimentos()
+comment7.text=\r\n\ Atualiza\ a\ lista\ de\ movimentos\ poss\u00EDveis\ do\r\n\ cavalo.\r\n
+comment8.params=
+comment8.target=java.util.ArrayList\ getMovimentos()
+numComments=9

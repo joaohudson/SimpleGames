@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Tabuleiro
+comment0.text=\r\n\ Descri\u00E7\u00E3o\:\ Tabuleiro\ do\ jogo,\ que\ possui\r\n\ as\ casas\ do\ jogo.\r\n\ \r\n\ @author\ (Jo\u00E3o\ Hudson)\ \r\n\ @version\ (20/09/2018)\r\n
+comment1.params=
+comment1.target=Tabuleiro()
+comment1.text=\r\n\ Cria\ o\ tabuleiro\ do\ jogo.\r\n
+comment2.params=
+comment2.target=void\ inicializador()
+comment2.text=\r\n\ Cria\ e\ armazena\ todas\ as\ casas\ do\ tabuleiro\r\n\ no\ array\ bi-dimensional\ casas.\r\n
+comment3.params=x\ y
+comment3.target=Casa\ getCasa(int,\ int)
+comment3.text=\r\n\ Obt\u00E9m\ uma\ casa\ do\ tabuleiro.\r\n\ \r\n\ @param\ x\ Posi\u00E7\u00E3o\ x\ da\ casa.\r\n\ @param\ y\ Posi\u00E7\u00E3o\ y\ da\ casa.\r\n\ @return\ A\ casa\ especificada.\r\n
+numComments=4

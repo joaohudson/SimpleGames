@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Bispo
+comment0.text=\r\n\ Descri\u00E7\u00E3o\:\ O\ bispo\ do\ jogo\ de\ Xadrez,\ pode\ se\r\n\ mover\ em\ qualquer\ sentido\ da\ diagonal,\ e\ comer\r\n\ da\ mesma\ forma.\r\n\ \r\n\ @author\ (Jo\u00E3o\ Hudson)\ \r\n\ @version\ (08/10/2018)\r\n
+comment1.params=casa\ jogador\ tipo
+comment1.target=Bispo(Casa,\ Jogador,\ int)
+comment1.text=\r\n\ Cria\ um\ bispo,\ posiciona\ em\ sua\ casa,\ e\ envia\ para\ seu\ jogador.\r\n\ \r\n\ @param\ casa\ A\ casa\ do\ bispo.\r\n\ @param\ jogador\ O\ jogador\ do\ bispo.\r\n\ @param\ tipo\ O\ tipo\ do\ bispo(branco\ ou\ o).\r\n
+comment2.params=
+comment2.target=void\ analisaMovimentosNE()
+comment2.text=\r\n\ Analisa\ os\ movimentos\ poss\u00EDveis\ no\ sentido\ nordeste,\r\n\ e\ ent\u00E3o\ adiciona\ estes\ movimentos\ na\ lista.\r\n
+comment3.params=
+comment3.target=void\ analisaMovimentosSE()
+comment3.text=\r\n\ Analisa\ os\ movimentos\ poss\u00EDveis\ no\ sentido\ sudeste,\r\n\ e\ ent\u00E3o\ adiciona\ estes\ movimentos\ na\ lista.\r\n
+comment4.params=
+comment4.target=void\ analisaMovimentosNO()
+comment4.text=\r\n\ Analisa\ os\ movimentos\ poss\u00EDveis\ no\ sentido\ noroeste,\r\n\ e\ ent\u00E3o\ adiciona\ estes\ movimentos\ na\ lista.\r\n
+comment5.params=
+comment5.target=void\ analisaMovimentosSO()
+comment5.text=\r\n\ Analisa\ os\ movimentos\ poss\u00EDveis\ no\ sentido\ sudoeste,\r\n\ e\ ent\u00E3o\ adiciona\ estes\ movimentos\ na\ lista.\r\n
+comment6.params=
+comment6.target=void\ atualizaMovimentos()
+comment6.text=\r\n\ Atualiza\ a\ lista\ de\ movimentos\ poss\u00EDveis\r\n\ do\ bispo.\r\n
+comment7.params=
+comment7.target=java.util.ArrayList\ getMovimentos()
+numComments=8
